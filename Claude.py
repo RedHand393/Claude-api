@@ -123,4 +123,4 @@ class ClaudeAskMod(loader.Module):
         await self.client.send_message(
             utils.get_chat_id(message),
             "✅ API-ключ сохранён и сообщение с ним удалено.",
-                      )
+        )
